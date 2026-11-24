@@ -9,4 +9,5 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pitstop.ui.theme.*
-@Composable fun SplashScreen(onContinue:()->Unit){Column(Modifier.fillMaxSize().background(PitStopNavy).padding(24.dp),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.Center){Text("PitStop",color=PitStopOrange,fontSize=42.sp,fontWeight=FontWeight.Bold);Text("Solusi Bengkel, Dalam Satu Aplikasi",color=MaterialTheme.colorScheme.onPrimary);Spacer(Modifier.height(32.dp));Button(onContinue){Text("Mulai")}}}
+import com.example.pitstop.ui.components.PitStopLogo
+@Composable fun SplashScreen(onContinue:()->Unit){Column(Modifier.fillMaxSize().background(PitStopNavy).padding(24.dp),horizontalAlignment=Alignment.CenterHorizontally,verticalArrangement=Arrangement.Center){PitStopLogo();Text("PitStop",color=PitStopOrange,fontSize=42.sp,fontWeight=FontWeight.Bold);Text("Solusi Bengkel, Dalam Satu Aplikasi",color=MaterialTheme.colorScheme.onPrimary);Spacer(Modifier.height(32.dp));Button(onContinue){Text("Mulai")}}}
