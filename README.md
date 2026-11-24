@@ -18,6 +18,7 @@ UI prototype aplikasi manajemen bengkel berdasarkan `PitStop Workshop App UI Sto
 | Kendaraan | Selesai: detail, pemilik, spesifikasi, riwayat, edit |
 | Servis | Selesai: form, riwayat, filter status, search, export action |
 | Profil | Selesai: account card, role, menu, logout |
+| Supplier | Selesai prototype: reachable route, search, supplier cards, FAB |
 | UI states | Selesai prototype: loading, empty, error, delete, export success |
 | Navigation | Selesai prototype: bottom tabs dan feature routes |
 | Backend/API/CRUD/DB | Ditunda untuk tahap berikutnya |
