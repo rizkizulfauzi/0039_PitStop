@@ -19,6 +19,11 @@ UI prototype aplikasi manajemen bengkel berdasarkan `PitStop Workshop App UI Sto
 | Servis | Selesai: form, riwayat, filter status, search, export action |
 | Profil | Selesai: account card, role, menu, logout |
 | Supplier | Selesai prototype: reachable route, search, supplier cards, FAB |
+| Lupa Password | Selesai prototype: email reset form |
+| Form Pelanggan | Selesai prototype: tambah pelanggan |
+| Detail Servis | Selesai prototype: status, pelanggan, sparepart |
+| Pengguna & Role | Selesai prototype: Admin/Mekanik list |
+| Notifikasi | Selesai prototype: notification list |
 | UI states | Selesai prototype: loading, empty, error, delete, export success |
 | Navigation | Selesai prototype: bottom tabs dan feature routes |
 | Backend/API/CRUD/DB | Ditunda untuk tahap berikutnya |
@@ -53,3 +58,4 @@ Hasil terakhir: `BUILD SUCCESSFUL`.
 - `9da7662` connect wireframe bottom navigation routes
 - `c4981f3` register all wireframe feature routes
 - `9c8cfe9` match empty error loading and export states to wireframe
+- `b859753` add remaining SRS UI screens
